@@ -1,0 +1,25 @@
+# Site settings
+name: "mirai.audio"
+description: "Web Music Done Right"
+url: "https://mirai.audio"
+author: "0xADADA"
+
+# Build settings
+markdown: kramdown
+paginate: 10
+permalink: pretty
+sass:
+  style: compressed
+
+# Jekyll plugins
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Project settings
+exclude: [
+  Gemfile,
+  Gemfile.lock,
+  LICENSE,
+  README.md
+]

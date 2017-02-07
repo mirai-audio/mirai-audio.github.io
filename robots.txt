@@ -1,0 +1,2 @@
+# Hello friends.
+Sitemap: https://mirai.audio/sitemap.xml
