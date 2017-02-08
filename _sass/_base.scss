@@ -7,12 +7,6 @@
   box-sizing: border-box;
 }
 
-*:target {
-  background: lightgreen;
-  border: 1px dotted;
-  padding: 0.25em;
-}
-
 html,
 button,
 input,
@@ -37,7 +31,7 @@ select {
   text-size-adjust: none;
 
   /* Normalize font stack. */
-  font-family: "Source Serif Pro", "Times New Roman", Times, serif;
+  font-family: "Source Sans Pro", "Times New Roman", Times, serif;
   font-size: 100%;
   line-height: 1.4;
 }
@@ -54,28 +48,6 @@ a {
 }
 a:hover {
   color: #0000cc;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 700;
-}
-
-code,
-pre {
-  font-family: 'Source Code Pro', monospace;
-}
-
-cite {
-  display: block;
-  font-style: normal;
-}
-blockquote cite {
-  font-style: italic;
 }
 
 img {

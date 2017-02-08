@@ -30,26 +30,38 @@
   width: auto;
 }
 
-
-/** o-Layout
- */
-.o-Layout {
-  max-width: 57em;
-  margin: 0 auto;
-}
-
-
-/** o-Center
- */
-.o-Center {
-  text-align: center;
-}
-
-/** other
+/*
+ * typography
  * ========================================================================== */
-.byline,
-.byline .author,
-.published {
-  color: darkgrey;
+
+/* Weights */
+.t-Light { font-weight: 300; }
+.t-Regular { font-weight: 400; }
+.t-Bold { font-weight: 700; }
+.t-Black { font-weight: 900; }
+
+/* Variants */
+.t-Italic { font-style: italic; }
+.t-Title {
+  text-shadow: 0.25em 0.25em 1em rgba(0,0,0,0.25);
+  color: #FDF9F0;
+  font-weight: 900;
+  font-size: 7vw;
 }
 
+/*
+ * layout
+ * ========================================================================== */
+.t-VCenter {
+  position: relative;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.t-VCenter-Child {
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
