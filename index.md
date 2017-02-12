@@ -7,9 +7,7 @@ metaOgType: "website"
 ---
 
 <div class="t-VCenter-Child">
-  <div class="Asdf">
-    {% include logo.svg %}
-  </div>
+  <img class="Logo" src="/static/images/logo.svg" alt>
 
   {% include mailchimp-beta-form.html %}
 </div>

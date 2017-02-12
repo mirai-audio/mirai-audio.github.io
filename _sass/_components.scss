@@ -2,21 +2,3 @@
  * components
  */
 
-@keyframes Yokoso-FadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-.Yokoso {
-  animation-name: Yokoso-FadeIn;
-  animation-duration: 5s;
-  animation-timing-function: ease;
-  animation-direction: normal;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-  opacity: 0;
-}
-
-.Yokoso-Maru { animation-delay: 1s; }
-.Yokoso-Uroko { animation-delay: 2s; }
-.Yokoso-Mirai { animation-delay: 3s; }
-
