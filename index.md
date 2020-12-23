@@ -2,7 +2,7 @@
 layout: page
 title: "mirai.audio"
 displayTitle: "mirai.audio"
-metaDescription: "Coming Spring 2017"
+metaDescription: "Coming Spring 2017, maybe not"
 metaOgType: "website"
 ---
 
